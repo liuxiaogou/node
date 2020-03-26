@@ -5,7 +5,7 @@ program
     .command('init <name>')
     .description('init project')
     .action(name=>{
-        console.log('init '+name);
+        console.log('[init] '+name);
         
     })
 program.parse(process.argv)    
