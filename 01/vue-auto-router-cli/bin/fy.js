@@ -4,7 +4,7 @@ program.version(require('../package').version)
 program
     .command('init <name>')
     .description('init project')
-    .action(require('../lib/init'))
+     .action(require('../lib/init'))
     // .action(name=>{
     //     console.log('[init111] '+name);
         
